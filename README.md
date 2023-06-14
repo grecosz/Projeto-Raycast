@@ -34,6 +34,11 @@ Usamos e abusamos dos assets para a facilitação e decoração do projeto, send
 ![materials](https://github.com/grecosz/Projeto-Raycast/blob/main/Imagens/materials.png?raw=true)
 ![planetas](https://github.com/grecosz/Projeto-Raycast/blob/main/Imagens/planetas.png?raw=true)
 
+### » ✧ *Iluminação* ✧ «
+Utilizamos 2 tipos de iluminação: "directional lights" e "spot lights". A directional light foi usada como uma iluminação primária para que a cena não ficasse escura, enquanto a spot light foi usada com a intenção de dar um efeito mais real de "universo" e "espaço" para nossa cena.
+
+
+
 
 ### » ✧ *Movimentação* ✧ «
 
@@ -41,11 +46,10 @@ Programamos nossa nave para que ela pudesse executar uma movimentação completa
 <br>
 <br>
 
-![assets]
 
-Física:
-Para física utilizamos rigidbody nos planetas, sphere colide, materiais e também regulamos a massa de cada um. A nave possui rigidbory, box colider, material e o raycast.
+### » ✧ *Física* ✧ «
+Para a física da cena, utilizamos rigidbody nos planetas, além do sphere colider e alguns materiais. Também regulamos a massa de cada um para que eles não caíssem no void ou atravessavem uns aos outros. A nave possui rigidbody, box colider, material e o raycast aplicado.
 
-Raycast:
-O raycast da nossa cena ocorre da seguinte forma: controlamos nossa nave com o objetivo de acabar com todos os planetas de tal universo. O controle de bordo da nave (console) nos avisa sobre a missão e quando terminamos ele mostra que a tarefa foi concluída. Quando a nave colide com o planeta ele some, função feita pelo raycast.
+### » ✧ *Raycast* ✧ «
+Em nossa cena, o Raycast funciona ao colidirmos com o planeta, deletando-o. Embora seja uma mencânica simples, pudemos compreender muito melhor o uso do Raycast quando aplicamos ela a esta cena.
 

@@ -35,7 +35,7 @@ Usamos e abusamos dos assets para a facilitação e decoração do projeto, send
 ![planetas](https://github.com/grecosz/Projeto-Raycast/blob/main/Imagens/planetas.png?raw=true)
 
 ### » ✧ *Iluminação* ✧ «
-Utilizamos 2 tipos de iluminação: "directional lights" e "spot lights". A directional light foi usada como uma iluminação primária para que a cena não ficasse escura, enquanto a spot light foi usada com a intenção de dar um efeito mais real de "universo" e "espaço" para nossa cena.
+Utilizamos 2 tipos de iluminação: "directional lights" e "spot lights". A directional light foi usada como uma iluminação primária para que a cena não ficasse escura, enquanto a spot light havia sido usada em tons de roxo e azul com a intenção de dar um efeito mais real de "universo" e "espaço" para nossa cena. Como o projeto acabou pesando com a spot light, decidimos remover do projeto final, deixando apenas a iluminação básica.
 
 
 
